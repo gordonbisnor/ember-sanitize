@@ -1,5 +1,5 @@
 import { sanitize } from 'ember-sanitize/utils/sanitize';
-import getOwner from 'ember-getowner-polyfill';
+import { getOwner } from '@ember/application';
 import Ember from 'ember';
 
 export default Ember.Helper.extend({
